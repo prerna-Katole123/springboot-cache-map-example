@@ -23,11 +23,7 @@ public class WeatherCache {
 	public boolean checkDataInCache(int id)
 	{
 		System.out.println("cheching data in cache ");
-		if(m.containsKey(id))
-			{
-			return true;
-			}
-		return false;
+		return m.containsKey(id);
 	}
 
 }
